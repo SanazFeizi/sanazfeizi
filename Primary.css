@@ -425,6 +425,7 @@ ul {
 
 .D1 {
 overflow: hidden!important;
+overflow-y: hidden!important;
 }
 
 
