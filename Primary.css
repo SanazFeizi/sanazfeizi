@@ -423,6 +423,11 @@ ul {
 
 @media screen and (max-width: 768px) {
 
+.D1 {
+overflow: hidden!important;
+}
+
+
 .Menu {
 position: unset;
 display: flex!important;

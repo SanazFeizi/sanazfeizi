@@ -39,7 +39,7 @@ function myVideoFunction(id) {
 
 function myPublicationFunction(id) {
     if(id == 1) {
-        document.getElementById("Pub1").innerHTML = "Is It A Choice?/2022 <a href='is it a choice.html'>Link to full document";
+        document.getElementById("Pub1").innerHTML = "Is It A Choice?/2022 <a href='IS It A Choice.html'>Link to full document";
     } 
     else if (id == 2) {
         document.getElementById("Pub2").innerHTML = "[un]seen Exhibition/2022";
