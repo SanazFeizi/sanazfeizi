@@ -12,14 +12,7 @@ body {
 
 /* index_page */
 
-.D1 {
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-}
 
 .Main {
 
@@ -103,7 +96,7 @@ body {
 ul {
 
     list-style-type: none;
-    padding: 0;
+    padding: 15px 0 0 0;
     margin: 0;
     
 }
@@ -125,7 +118,7 @@ ul {
     content: '';
     position: absolute;
     top: 50%;
-    left: -10px;
+    left: -13px;
     transform: translateY(-50%);
     border-left: 8px solid rgb(224, 224, 4);
     border-top: 8px solid transparent;
@@ -154,6 +147,7 @@ ul {
     
 }
 */
+
 .col-80 {
     
     width: 80%;
@@ -197,7 +191,7 @@ ul {
 .title {
 
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     position: fixed;
     background-color: white;
     z-index: 3;
@@ -225,7 +219,7 @@ ul {
     font-weight: 300;
     position: fixed;
     background-color: white;
-    color: lightgrey;
+    color: rgb(170, 169, 169);
     z-index: 2;
     padding-top: 7%;
     padding-bottom: 5px;
@@ -237,7 +231,7 @@ ul {
 
     font-size: small;
     font-weight: 300;
-    color: lightgrey;
+    color: rgb(170, 169, 169);
 
 }
 
@@ -251,7 +245,7 @@ ul {
 
     font-size: small;
     font-weight: 300;
-    color: rgb(196, 193, 193);
+    color: rgb(170, 169, 169);
     margin-bottom: 0.5%;
 
 }
@@ -265,7 +259,7 @@ ul {
 
 .Info_Index {
 
-    color: lightgrey;
+    color: rgb(170, 169, 169);
     font-weight: 300;
     font-size: small;
     margin-bottom: 0.5%;
@@ -280,7 +274,7 @@ ul {
 
 .Info_Poster {
 
-    color: lightgrey;
+    color: rgb(170, 169, 169);
     font-weight: 300;
     font-size: small;
     margin-bottom: 0.5%;
@@ -331,6 +325,8 @@ ul {
     position: relative;
     cursor: context-menu;
     margin-top: 10px; 
+    font-size: medium;
+    padding-left: 120px;
   
 }
 
@@ -338,7 +334,29 @@ ul {
     text-decoration: none; 
     display: block; 
     margin-top: 10px; 
-    color: lightgrey;
+    color: rgb(170, 169, 169);
+}
+
+.Descriptions_i {
+
+    width: 30%;
+    position: relative;
+    cursor: context-menu;
+    margin-top: 10px; 
+    font-size: medium;
+    padding-left: 24px;
+
+}
+
+.Descriptions-p {
+
+    width: 30%;
+    position: relative;
+    cursor: context-menu;
+    margin-top: 10px; 
+    font-size: medium;
+    padding-left: 3px;
+
 }
 
 
@@ -354,7 +372,7 @@ ul {
 
 
 .TD {
-    color: lightgrey;
+    color: rgb(170, 169, 169);
     font-weight: 400;
 }
 
@@ -423,48 +441,42 @@ ul {
 
 @media screen and (max-width: 768px) {
 
-.D1 {
-overflow: hidden!important;
-overflow-y: hidden!important;
-}
-
-
 .Menu {
 position: unset;
 display: flex!important;
 justify-content: space-between;
 padding: 8px 14px 0 14px;
-        
+font-size: medium!important;
+       
 }
 
 
 .title {
     position: unset!important;
+    font-size: 20px;
+    padding-top: 28px!important;
 }
 
 
 .SF {
 
-    font-size: 15px;
+    font-size: medium;
     font-weight: 400;
+    padding-top: 5%;
 }
 
 
 .PR {
     display: block!important;
     height: unset!important;
-    padding: 10px!important
+    padding: 10px!important;
+    width: 100%!important;
 }
 
 
 .Container {
-    display: block!important;
-}
+ display: block!important;
 
-
-.PR .title {
-    padding-top: 15px!important;
-   
 }
 
 
@@ -523,7 +535,7 @@ padding: 8px 14px 0 14px;
 
 
 .TD {
-    color: lightgrey;
+    color: rgb(170, 169, 169);
     font-weight: 400;
 }
 
@@ -566,19 +578,22 @@ padding: 8px 14px 0 14px;
 
 
 .Container_first {
- margin-top: 30px!important;
+ margin-top: 16px!important;
  display: block!important;
+ 
 }
 
 .Container_first_Pub {
 
  margin-top: 7px!important;
  display: block!important;
+
 }
 
 .Content img {
-    width: 100%!important;
-    min-width: 260px;
+    width: 143%!important;
+   
+    
 }
 
 
@@ -590,6 +605,26 @@ padding: 8px 14px 0 14px;
 .Descriptions {
     width: 100%!important;
     position: unset!important;
+    font-size: 15px;
+    padding-left: unset;
+}
+
+.Descriptions_i {
+
+    width: 100%!important;
+    position: unset!important;
+    font-size: 15px;
+    padding-left: unset;
+
+}
+
+.Descriptions-p  {
+
+    width: 100%!important;
+    position: unset!important;
+    font-size: 15px;
+    padding-left: unset;
+
 }
 
 .Main img {
@@ -618,6 +653,9 @@ ul.Project li {
 .col-80 ul {
     margin-top: 30px!important;
     margin-left: -25px;
+    line-height: 70%;
+    letter-spacing: 8px;
+    font-weight: 400;
 }
 
 .SectionTitle h2 {
@@ -644,4 +682,47 @@ ul.Project li {
     margin-top: unset!important; 
    
 }
+
+.Nav a::before {
+   
+    left: -8px!important;  
 }
+}
+
+.D1 {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+
+    .D1 {
+    overflow: hidden!important;
+   
+    }
+}    
+
+/*
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+
+    .Descriptions {
+        width: 30%;
+        position: relative;
+        cursor: context-menu;
+        font-size: medium;
+        cursor: context-menu;
+        margin-top: 368px;
+        font-size: medium;
+        margin-left: -489px;
+        border: 2px solid red;
+   
+      
+    }
+} 
+
+*/
