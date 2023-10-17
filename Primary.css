@@ -701,6 +701,8 @@ ul.Project li {
    
     left: -8px!important;  
 }
+
+
 }
 
 
@@ -741,10 +743,6 @@ ul.Project li {
         
     }
 
-    .bottom-left-text {
-        position: unset;
-       
-}
 }
 
 
