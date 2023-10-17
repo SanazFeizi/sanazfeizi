@@ -359,6 +359,14 @@ ul {
 }
 
 
+.Teaching a {
+
+    color: rgb(170, 169, 169);
+    text-decoration: underline dotted;
+    font-style: italic;
+
+}
+
 
 .TD {
     color: rgb(170, 169, 169);
@@ -425,6 +433,17 @@ ul {
     }
 }
 
+
+.bottom-left-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+}
 
 /* -------------------- CSS for smaller screen ------------------- */
 
@@ -721,6 +740,11 @@ ul.Project li {
         font-weight: 400;
         
     }
+
+    .bottom-left-text {
+        position: unset;
+       
+}
 }
 
 
